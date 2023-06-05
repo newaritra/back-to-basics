@@ -1,0 +1,49 @@
+.navbarContainer {
+  height: 8.5rem;
+  /* width: 100vw; */
+  background-color: #74c69d;
+  padding: 3.5rem 13rem 0rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbarContainer p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbarInnerContainer {
+  display: flex;
+  flex-grow: 1;
+  /* width: 85%; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.navbarLogoImage {
+  width: 7rem;
+  object-fit: contain;
+}
+
+.navbarLogoTitle {
+  font-weight: 500;
+  font-size: 4rem;
+  color: white;
+}
+
+.navbarLinksContainer {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.navbarLinksContainer a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
